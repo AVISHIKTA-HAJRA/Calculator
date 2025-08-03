@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(45deg, #092353, #104ab6);
+}
+
+.title {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c9e4ff;
+    text-shadow: #09090f 1px 1px 3px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Calculator-div */
+
+.cal-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Calculator body */
+
+.cal-body-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    width: 300px;
+    background-color: #061839;
+    box-shadow: #88cbff 0px 0px 5px;
+    gap: 25px;
+}
+
+/* I/O box */
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 70px;
+    width: 260px;
+    border: solid #061530;
+    background-color: #13326c;
+    box-shadow: #88cbff 0px 0px 3px;
+    color: #c9e4ff;
+    text-shadow: #09090f 1px 1px 3px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #061839;
+    gap: 15px;
+}
+
+.operators,
+.numbers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #061839;
+    gap: 15px;
+}
+
+/* Buttons */
+
+.operator-opt,
+.number-opt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: #09090f;
+    box-shadow: #4890fb 0px 0px 5px;
+    border-radius: 50%;
+    color: #c9e4ff;
+    text-shadow: #09090f 1px 1px 3px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#mul {
+    font-size: 1rem;
+}
+
+#evaluate,
+#clear-all,
+#clear {
+    background-color: #003399;
+}
